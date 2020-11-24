@@ -1,0 +1,310 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-24T05:17:51.817Z",
+        "line": 5,
+        "name": "All sublinks of  Computer  \u0026 Office must forward a customer to the true pages.",
+        "description": "  //Bilgisayar ve Ofisin tüm alt bağlantıları bir müşteriyi gerçek sayfalara yönlendirmelidir.",
+        "id": "glb-trader;all-sublinks-of--computer--\u0026-office-must-forward-a-customer-to-the-true-pages.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "io.cucumber.core.exception.CucumberException: Step [go to the link] is defined with 1 parameters at \u0027glbTrader.stepdefinitions.CompeterOfficeStepDefinition.go_to_the_link(java.lang.Integer)\u0027.\nHowever, the gherkin step has 0 arguments.\nStep text: go to the link\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:134)\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:42)\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:49)\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:51)\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:67)\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:149)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:185)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:83)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:219)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)\n",
+              "duration": 2000000,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "go to the link",
+            "match": {
+              "location": "glbTrader.stepdefinitions.CompeterOfficeStepDefinition.go_to_the_link(java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Please enter valid e-mail address.",
+            "match": {
+              "location": "glbTrader.stepdefinitions.CompeterOfficeStepDefinition.please_enter_valid_e_mail_address(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Please enter the valid password.",
+            "match": {
+              "location": "glbTrader.stepdefinitions.CompeterOfficeStepDefinition.please_enter_the_valid_password(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Click Login  Button",
+            "match": {
+              "location": "glbTrader.stepdefinitions.CompeterOfficeStepDefinition.click_Login_Button(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Click \"GLOBAL TRADER\" logo.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GLOBAL TRADER\"",
+                  "offset": 6
+                }
+              ],
+              "location": "glbTrader.stepdefinitions.CompeterOfficeStepDefinition.click_logo(java.lang.Integer,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Click on the Computer \u0026 Office link.",
+            "match": {
+              "location": "glbTrader.stepdefinitions.CompeterOfficeStepDefinition.click_on_the_Computer_Office_link(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Tablets link must be clickable.",
+            "match": {
+              "location": "glbTrader.stepdefinitions.CompeterOfficeStepDefinition.tablets_link_must_be_clickable(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Office Electroniccs link must be clickable.",
+            "match": {
+              "location": "glbTrader.stepdefinitions.CompeterOfficeStepDefinition.office_Electroniccs_link_must_be_clickable(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Tablet Accessories link must be clickable.",
+            "match": {
+              "location": "glbTrader.stepdefinitions.CompeterOfficeStepDefinition.tablet_Accessories_link_must_be_clickable(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "External Storage link must be clickable.",
+            "match": {
+              "location": "glbTrader.stepdefinitions.CompeterOfficeStepDefinition.external_Storage_link_must_be_clickable(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Networking link must be clickable.",
+            "match": {
+              "location": "glbTrader.stepdefinitions.CompeterOfficeStepDefinition.networking_link_must_be_clickable(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Computer Components link must be clickable.",
+            "match": {
+              "location": "glbTrader.stepdefinitions.CompeterOfficeStepDefinition.computer_Components_link_must_be_clickable(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Computer Perpherals link must be clickable.",
+            "match": {
+              "location": "glbTrader.stepdefinitions.CompeterOfficeStepDefinition.computer_Perpherals_link_must_be_clickable(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "Memory Cards \u0026SSD  link must be clickable.",
+            "match": {
+              "location": "glbTrader.stepdefinitions.CompeterOfficeStepDefinition.memory_Cards_SSD_link_must_be_clickable(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "Cable \u0026 Connectors link must be clickable.",
+            "match": {
+              "location": "glbTrader.stepdefinitions.CompeterOfficeStepDefinition.cable_Connectors_link_must_be_clickable(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "Mini PC  link must be clickable. 18. Demo",
+            "match": {
+              "arguments": [
+                {
+                  "val": "18",
+                  "offset": 33
+                }
+              ],
+              "location": "glbTrader.stepdefinitions.CompeterOfficeStepDefinition.mini_PC_link_must_be_clickable_Demo(java.lang.Integer,java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "Demo Board \u0026 Accessories  link must be clickable.",
+            "match": {
+              "location": "glbTrader.stepdefinitions.CompeterOfficeStepDefinition.demo_Board_Accessories_link_must_be_clickable(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "Desktops \u0026 Servers  link must be clickable.",
+            "match": {
+              "location": "glbTrader.stepdefinitions.CompeterOfficeStepDefinition.desktops_Servers_link_must_be_clickable(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "Industrial Computer \u0026 Accessories link must be clickable.",
+            "match": {
+              "location": "glbTrader.stepdefinitions.CompeterOfficeStepDefinition.industrial_Computer_Accessories_link_must_be_clickable(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "DIY Gaming PC link must be clickable.",
+            "match": {
+              "location": "glbTrader.stepdefinitions.CompeterOfficeStepDefinition.diy_Gaming_PC_link_must_be_clickable(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "Computer Cleaners link must be clickable.",
+            "match": {
+              "location": "glbTrader.stepdefinitions.CompeterOfficeStepDefinition.computer_Cleaners_link_must_be_clickable(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "Gaming Laptops link must be clickable.",
+            "match": {
+              "location": "glbTrader.stepdefinitions.CompeterOfficeStepDefinition.gaming_Laptops_link_must_be_clickable(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@glbTraderTC08"
+          },
+          {
+            "name": "@testCase01"
+          }
+        ]
+      }
+    ],
+    "name": "Glb Trader",
+    "description": "",
+    "id": "glb-trader",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/ComputerOffice.feature",
+    "tags": [
+      {
+        "name": "@glbTraderTC08",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
